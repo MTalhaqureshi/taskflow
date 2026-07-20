@@ -3,6 +3,7 @@
     { "source": "/taskflow-app.html", "destination": "/taskflow-app", "permanent": true }
   ],
   "rewrites": [
+    { "source": "/", "destination": "/taskflow-app.html" },
     { "source": "/taskflow-app", "destination": "/taskflow-app.html" },
     { "source": "/(.*)", "destination": "/taskflow-app.html" }
   ]
